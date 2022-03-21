@@ -1,4 +1,4 @@
-Flask==2.0.3
+Flask==1.1.2
 Corpora==1.0
 textblob==0.17.1
 cachetools==4.1.0

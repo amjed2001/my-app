@@ -1,0 +1,81 @@
+body{
+    background-image: url(NEuip.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+h1{ 
+    font-size: 2.6rem;
+}
+h2{ 
+    font-size: 4.8rem;
+}
+h3{ 
+    font-size: 3rem;
+}
+h4,h5{ 
+    font-size: 2.8rem;
+}
+li{
+    font-size: 2.6rem;
+}
+a{ 
+    color: #ffffff;
+    text-decoration: none;
+
+}
+/*header*/
+.main-head{
+    background: #100124;
+    color:azure;
+}
+
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+
+}
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content:space-around;
+    align-items:center;
+    list-style:none;
+}
+.nav ul li{ 
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.nav ul li a{
+    text-decoration: none;
+
+}
+.nav ul li:hover{
+    background: #8f0707;
+    border-radius: 3px;
+}
+#logo{ 
+    flex: 2 1 40rem;
+}
+p{
+    color: rgb(219, 198, 219);
+    font-size: 2.6rem;
+    background-position: center;
+
+}
+button{
+    background-color: rgb(40, 21, 204);
+}
+
